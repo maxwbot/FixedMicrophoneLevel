@@ -32,6 +32,8 @@ namespace SilentOrbit.FixedMicrophoneLevel.Keyboard
             RegisterHotKey(ModifierKeys.None, Keys.F13);
 
             RegisterHotKey(ModifierKeys.None, Keys.CapsLock);
+
+            RegisterHotKey(ModifierKeys.None, Keys.Scroll);
         }
 
         void RegisterHotKey(ModifierKeys mod, Keys key)
